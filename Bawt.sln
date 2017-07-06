@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bawt", "Bawt\Bawt.csproj", "{A00008B9-FE3F-432C-AC8D-4DE7B1CD884F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bawt.Console", "Bawt.Console\Bawt.Console.csproj", "{8C4B374F-5DAE-4071-AAC5-6C3374623268}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A00008B9-FE3F-432C-AC8D-4DE7B1CD884F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00008B9-FE3F-432C-AC8D-4DE7B1CD884F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00008B9-FE3F-432C-AC8D-4DE7B1CD884F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00008B9-FE3F-432C-AC8D-4DE7B1CD884F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4B374F-5DAE-4071-AAC5-6C3374623268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4B374F-5DAE-4071-AAC5-6C3374623268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4B374F-5DAE-4071-AAC5-6C3374623268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4B374F-5DAE-4071-AAC5-6C3374623268}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
